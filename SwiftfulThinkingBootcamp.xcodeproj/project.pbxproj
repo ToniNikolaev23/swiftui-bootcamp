@@ -11,6 +11,10 @@
 		B58220912AC2ABA300EC4F42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58220902AC2ABA300EC4F42 /* ContentView.swift */; };
 		B58220932AC2ABA400EC4F42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B58220922AC2ABA400EC4F42 /* Assets.xcassets */; };
 		B58220962AC2ABA400EC4F42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B58220952AC2ABA400EC4F42 /* Preview Assets.xcassets */; };
+		B582209D2AC2B2A600EC4F42 /* TextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582209C2AC2B2A600EC4F42 /* TextBootcamp.swift */; };
+		B582209F2AC2BDF800EC4F42 /* ShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582209E2AC2BDF800EC4F42 /* ShapesBootcamp.swift */; };
+		B58220A12AC2CC4900EC4F42 /* ColorsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58220A02AC2CC4900EC4F42 /* ColorsBootcamp.swift */; };
+		B58220A32AC301BB00EC4F42 /* GradientsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58220A22AC301BB00EC4F42 /* GradientsBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		B58220902AC2ABA300EC4F42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B58220922AC2ABA400EC4F42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B58220952AC2ABA400EC4F42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B582209C2AC2B2A600EC4F42 /* TextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBootcamp.swift; sourceTree = "<group>"; };
+		B582209E2AC2BDF800EC4F42 /* ShapesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesBootcamp.swift; sourceTree = "<group>"; };
+		B58220A02AC2CC4900EC4F42 /* ColorsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsBootcamp.swift; sourceTree = "<group>"; };
+		B58220A22AC301BB00EC4F42 /* GradientsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +61,12 @@
 			children = (
 				B582208E2AC2ABA300EC4F42 /* SwiftfulThinkingBootcampApp.swift */,
 				B58220902AC2ABA300EC4F42 /* ContentView.swift */,
+				B582209C2AC2B2A600EC4F42 /* TextBootcamp.swift */,
 				B58220922AC2ABA400EC4F42 /* Assets.xcassets */,
 				B58220942AC2ABA400EC4F42 /* Preview Content */,
+				B582209E2AC2BDF800EC4F42 /* ShapesBootcamp.swift */,
+				B58220A02AC2CC4900EC4F42 /* ColorsBootcamp.swift */,
+				B58220A22AC301BB00EC4F42 /* GradientsBootcamp.swift */,
 			);
 			path = SwiftfulThinkingBootcamp;
 			sourceTree = "<group>";
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B58220A32AC301BB00EC4F42 /* GradientsBootcamp.swift in Sources */,
+				B58220A12AC2CC4900EC4F42 /* ColorsBootcamp.swift in Sources */,
+				B582209F2AC2BDF800EC4F42 /* ShapesBootcamp.swift in Sources */,
 				B58220912AC2ABA300EC4F42 /* ContentView.swift in Sources */,
+				B582209D2AC2B2A600EC4F42 /* TextBootcamp.swift in Sources */,
 				B582208F2AC2ABA300EC4F42 /* SwiftfulThinkingBootcampApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +285,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftfulThinkingBootcamp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Bootcamp;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +314,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftfulThinkingBootcamp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Bootcamp;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
