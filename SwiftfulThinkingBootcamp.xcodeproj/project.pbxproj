@@ -15,6 +15,7 @@
 		B582209F2AC2BDF800EC4F42 /* ShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582209E2AC2BDF800EC4F42 /* ShapesBootcamp.swift */; };
 		B58220A12AC2CC4900EC4F42 /* ColorsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58220A02AC2CC4900EC4F42 /* ColorsBootcamp.swift */; };
 		B58220A32AC301BB00EC4F42 /* GradientsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58220A22AC301BB00EC4F42 /* GradientsBootcamp.swift */; };
+		B58220A52AC3071400EC4F42 /* IconsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58220A42AC3071400EC4F42 /* IconsBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		B582209E2AC2BDF800EC4F42 /* ShapesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesBootcamp.swift; sourceTree = "<group>"; };
 		B58220A02AC2CC4900EC4F42 /* ColorsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsBootcamp.swift; sourceTree = "<group>"; };
 		B58220A22AC301BB00EC4F42 /* GradientsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsBootcamp.swift; sourceTree = "<group>"; };
+		B58220A42AC3071400EC4F42 /* IconsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				B582209E2AC2BDF800EC4F42 /* ShapesBootcamp.swift */,
 				B58220A02AC2CC4900EC4F42 /* ColorsBootcamp.swift */,
 				B58220A22AC301BB00EC4F42 /* GradientsBootcamp.swift */,
+				B58220A42AC3071400EC4F42 /* IconsBootcamp.swift */,
 			);
 			path = SwiftfulThinkingBootcamp;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				B58220912AC2ABA300EC4F42 /* ContentView.swift in Sources */,
 				B582209D2AC2B2A600EC4F42 /* TextBootcamp.swift in Sources */,
 				B582208F2AC2ABA300EC4F42 /* SwiftfulThinkingBootcampApp.swift in Sources */,
+				B58220A52AC3071400EC4F42 /* IconsBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
